@@ -1,0 +1,89 @@
+---
+title: 'Übungsblatt 1: Grundlagen von LaTeX'
+subtitle: 'Wissenschaftliches Schreiben und Arbeiten, WiSe 2023/’24'
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+\raggedright
+
+## Aufgabe 1: Installation und erstes Kompilieren
+
+1. **Lokale Installation:** Installiere eine LaTeX-Distribution deiner Wahl (z.B. MiKTeX für Windows, MacTeX für macOS oder TeX Live für Linux). Installiere anschließend einen geeigneten Editor (z.&#8239;B. TeXstudio).
+
+   **– oder –**
+
+   **Online mit Overleaf:** Erstelle ein Konto auf Overleaf ([**www.overleaf.com**](https://www.overleaf.com/)), einem webbasierten LaTeX-Editor, und logge dich dort ein.
+
+2. Erstelle ein neues LaTeX-Dokument (.tex-Datei), das folgenden Code enthält:
+
+```{latex}
+\documentclass{article}
+
+\begin{document}
+
+Hallo Welt!
+
+\end{document}
+```
+
+3. Kompiliere die Datei zu einem PDF-Dokument.
+
+4. Speichere den LaTeX-Code als Datei `hallowelt.tex` und das generierte PDF-Dokument als `hallowelt.pdf`.
+
+## Aufgabe 2: Abschnitte und Inhaltsverzeichnis
+
+1. Öffne die Datei `potsdam.tex` (im Moodle zu finden).
+
+2. Kompiliere die Datei zu einem PDF-Dokument. Speichere dieses PDF-Dokument als `potsdam-unformatiert.pdf`. 
+
+3. Unterteile den Text in drei Hauptabschnitte, die jeweils die Titel „Geschichte“, „Sehenswürdigkeiten“ und „Universität“ haben.
+
+4. Unterteile jetzt den zweiten Hauptabschnitt in zwei Unterabschnitte mit den Titeln „Schloss Sanssouci“ und „Filmpark Babelsberg“.
+
+5. Erstelle ein automatisch generiertes Inhaltsverzeichnis, das vor dem Text erscheint. 
+
+6. Kompiliere die .tex-Datei erneut und speichere das generierte PDF als  
+`potsdam-fertig.pdf`.
+
+## Aufgabe 3: Texthervorhebungen und Schriftgröße
+
+1. Öffne die Datei `geschichte.tex` (im Moodle zu finden).
+
+2. Kompiliere die Datei zu einem PDF-Dokument. Speichere dieses PDF-Dokument als `geschichte-unformatiert.pdf`. 
+
+3. Folge den Anweisungen in den Kommentaren in der .tex-Datei (überall, wo `TODO` steht), um Abschnitte des Textes mit Textvorhebungen und unterschiedlichen Schriftgrößen zu formatieren.
+
+4. Kompiliere die .tex-Datei erneut und speichere das generierte PDF als `geschichte-fertig.pdf`. 
+
+## Aufgabe 4: Aufzählungen
+
+1. Öffne die Datei `rezept.tex` (im Moodle zu finden).
+
+2. Kompiliere die Datei zu einem PDF-Dokument. Speichere dieses PDF-Dokument als `rezept-unformatiert.pdf`. 
+
+3. Das generierte Dokument sieht bisher noch unschön aus. Ändere die .tex-Datei so, dass die Zutaten als nicht-nummerierte Aufzählung erscheinen. 
+
+4. Bearbeite den LaTeX-Code anschließend so, dass die Schritte der Zubereitung als nummerierte Aufzählung erscheinen.
+
+5. Kompiliere die .tex-Datei erneut und speichere das generierte PDF als `rezept-fertig.pdf`.
+
+## Abgabe:
+
+Lade bis zum 26.10.23 um 23:59 Uhr folgende Dateien in der Abgabemaske im Kurs-Moodle hoch:
+
+- `hallowelt.tex`
+- `hallowelt.pdf`
+- `potsdam.tex` (in deinem letzten Bearbeitungsstand)
+- `potsdam-unformatiert.pdf`
+- `potsdam-fertig.pdf`
+- `geschichte.tex` (in deinem letzten Bearbeitungsstand)
+- `geschichte-unformatiert.pdf`
+- `geschichte-fertig.pdf`
+- `rezept.tex` (in deinem letzten Bearbeitungsstand)
+- `rezept-unformatiert.pdf`
+- `rezept-fertig.pdf`
+
+*Hinweis:* Falls du technische Probleme beim Kompilieren der .tex-Dateien zu PDFs hattest, dann ist es diesmal auch okay, wenn du nur die bearbeiteten .tex-Dateien und keine PDFs hochlädst.
