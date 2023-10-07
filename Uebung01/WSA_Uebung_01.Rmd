@@ -45,8 +45,7 @@ Hallo Welt!
 
 5. Erstelle ein automatisch generiertes Inhaltsverzeichnis, das vor dem Text erscheint. 
 
-6. Kompiliere die .tex-Datei erneut und speichere das generierte PDF als  
-`potsdam-fertig.pdf`.
+6. Kompiliere die .tex-Datei erneut und speichere das generierte PDF als `potsdam-fertig.pdf`.
 
 ## Aufgabe 3: Texthervorhebungen und Schriftgröße
 
