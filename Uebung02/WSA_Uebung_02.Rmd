@@ -5,16 +5,130 @@ output:
   pdf_document: default
   html_document:
     df_print: paged
+header-includes: |
+  \usepackage{tipa}
 ---
 
 \raggedright
 
-## Aufgabe 1: [[TODO]]
-[[TODO tbc here]]
+## Aufgabe A: LaTeX-Projekt herunterladen und einrichten
+
+1. Lade dir aus dem Kurs-Moodle die ZIP-Datei `hausarbeit.zip` herunter.
+
+2. In dieser Datei befindet sich ein halbfertiges LaTeX-Projekt für eine Seminar-Hausarbeit. Du hast jetzt zwei Möglichkeiten:
+    - Wenn du mit Overleaf arbeitest:\newline
+      Gehe auf „Neues Projekt“, dann „Projekt hochladen“. Es öffnet sich ein Pop-up-Fenster, durch das du die ZIP-Datei hochladen kannst. Die Inhalte werden dann automatisch in Overleaf extrahiert und als Projekt eingerichtet. 
+    - Wenn du mit einem lokalen LaTeX-Editor arbeitest:\newline
+      Extrahiere die ZIP-Datei auf deinem PC (z.&#8239;B.&nbsp;in ein Verzeichnis `hausarbeit/`) und öffne die LaTeX-Haupttdatei `hausarbeit.tex` von dort aus in deinem Editor.
+
+## Aufgabe B: Standard-Schriftgröße, Seitenränder und Zeilenabstand
+
+1. Ändere die Standard-Schriftgröße im Dokument zu 12 Punkt.\newline
+   *Hinweis: Du brauchst dann einen anderen Dokumenttyp als `article`.*
+
+2. Stelle folgende Seitenränder ein:
+    - links: 2,5 Zentimeter
+    - rechts: 2,5 Zentimeter
+    - oben: 3 Zentimeter
+    - unten: 3 Zentimeter
+
+3. Stelle für das Dokument 1,5-zeiligen Zeilenabstand ein.\newline
+   *Hinweis: Lade hierfür zunächst das Paket `setspace` und benutze dann einen geeigneten Befehl, um den gewünschten Zeilenabstand einzustellen.* 
+
+## Aufgabe C: Inhalte aus separaten .tex-Dateien einbetten
+
+1. Der Hauptabschnitt „1 Einleitung“ hat bisher noch gar keinen Inhalt.\newline
+   Bitte füge dort den Inhalt der separaten .tex-Datei `einleitung.tex` ein.\newline
+   Diese liegt im selben Verzeichnis wie die Hauptdatei `hausarbeit.tex`.\newline
+   *Hinweis: Du kannst hierfür den `\input`-Befehl verwenden.*
+
+2. Der Unterabschnitt „4.4 Diskussion“ hat bisher noch gar keinen Inhalt.\newline
+   Bitte füge dort den Inhalt der separaten .tex-Datei `diskussion.tex` ein.\newline
+   Diese liegt im selben Verzeichnis wie die Hauptdatei `hausarbeit.tex`.\newline
+   *Hinweis: Du kannst hierfür den `\input`-Befehl verwenden.*
+
+## Aufgabe D: Zitierstil ändern und Quellenangaben vervollständigen
+
+1. Aktuell werden bei allen Zitaten im Text Zahlen-Abkürzungen für die jeweiligen Quellen verwendet (z.&#8239;B.&nbsp;[1], [2]).\newline
+   Kannst du das Dokument so ändern, dass stattdessen bei Zitaten immer entweder\newline 
+   \hphantom\quad „AUTOR (JAHR)“\newline
+   oder\newline
+   \hphantom\quad „AUTOR, JAHR“\newline
+   angezeigt wird?\newline\newline
+   Achte darauf, dass die Jahreszahl immer nur dann mit einem Komma abgetrennt werden soll (anstatt in Klammern zu stehen), wenn der gesamte Zitierverweis an sich im Fließtext innerhalb von irgendwelchen Klammern erscheint.\newline\newline
+   Also z.&#8239;B.&nbsp;\newline
+   \hphantom\quad „Müller und Schmidt (1999) behaupten, dass XYZ der Fall ist.“\newline
+   aber\newline
+   \hphantom\quad „In vergangenen Studien wurde XYZ nachgewiesen (vgl.&nbsp;Müller und Schmidt, 1999).“
+
+2. Die Daten zu zwei der referenzierten Quellen sind unvollständig, nämlich zu folgenden:\newline 
+   \hphantom\quad – Lindstedt (2010)\newline
+   \hphantom\quad – Schatz, Turnbull, Bach und Dupoux (2017)\newline
+   In den Datenfeldern, wo noch Informationen fehlen (z.&#8239;B.&nbsp;Titel der Publikationen), steht in der Literaturverzeichnis-Datei `meine_quellen.bib` aktuell noch der Platzhalter `UNVOLLSTÄNDIG`.\newline\newline
+   Kannst du helfen, die Angaben zu vervollständigen?\newline
+   Gehe dazu auf Google Scholar ([**scholar.google.com**](https://scholar.google.com/)) und suche mit folgenden Stichworten nach den beiden Quellen:\newline
+   \hphantom\quad – `"lindstedt 2010 esperanto"`\newline 
+   \hphantom\quad – `"schatz turnbull bach dupoux"`\newline
+   Lasse dir dann auf Google Scholar die Daten zu den beiden Quellen im BIB-Format anzeigen und ergänze dann entsprechend die fehlenden Angaben in der Datei `meine_quellen.bib`.  
+
+## Aufgabe E: Fußnote erstellen
+
+Im Unterabschnitt „4.3 Ermittelte Resultate“ gibt es einen Satz, der aktuell noch Teil des normalen Fließtexts ist, den wir jetzt aber gerne lieber als Fußnote formatieren würden.
+
+Konkret handelt es sich um diesen Satz:
+
+- \scriptsize „Dadurch verändern sich im Übrigen natürlich auch die resultierenden Werte für die untersuchten Vokale, weil z.&#8239;B.&nbsp;potentiell vorhandene Daten zum Lautkontrast \textipa{/e/}~vs.~\textipa{/o\textsubarch{i}/} nicht mehr in die Berechnung von $s_c($\textipa{/e/}$)$ oder $\delta_a($\textipa{/e/}$)$ einfließen.“
+
+Bitte formatiere diesen Satz stattdessen als Fußnote zum Satz davor.
+
+## Aufgabe F: Mathematische Formel aufschreiben
+
+In Unterabschnitt „2.3 Die Maße $s_c$ und $\delta_a$“ wurden zwei mathematische Formeln einfach als Bilddateien eingefügt.
+
+Aber es gibt in LaTeX einen eleganteren Weg, mathematische Formeln direkt aufzuschreiben, nämlich den sog.&nbsp;„Mathe-Modus“.
+
+Kannst du die beiden Formeln neu aufschreiben, indem du den Mathe-Modus von LaTeX verwendest?\newline
+Dabei soll jede der beiden Formeln in einer eigenen Zeile erscheinen, die in ihrer Höhe variabel ist, also nicht auf die Höhe einer normalen Textzeile begrenzt ist. 
+
+Die ursprünglichen, nur als Bilddateien eingefügten Darstellungen der Formeln kannst du anschließend entfernen.
+
+## Aufgabe G: Bild in Abbildungs-Umgebung einfügen
+
+In Unterabschnitt „4.1 Idee zur Übertragung der Methode“ gibt es eine Abbildungsumgebung „Abbildung&nbsp;5“, die zwar schon eine Beschriftung hat, allerdings noch gar kein Bild enthält.
+
+Bitte füge hier das Bild `screenshot_extraktion.png` ein, das sich im Unterverzeichnis `bilder/` befindet. Das Bild soll in einer Breite erscheinen, die 75&#8239;% der Textbreite entspricht.
+
+## Aufgabe H: Daten als Tabelle aufschreiben
+
+In Unterabschnitt „4.3 Ermittelte Resultate“ werden Ergebnisdaten (d.&#8239;h.&nbsp;Werte für $s_c$ und $\delta_a$ je nach Vokaltyp) als verschachtelte, nicht-nummerierte Aufzählung dargestellt.
+
+Dieselben Daten ließen sich aber übersichtlicher und kompakter in Form einer Tabelle präsentieren.
+
+Erstelle also eine Tabelle mit dem `booktabs`-Paket, die diese Ergebnisdaten sinnvoll zusammenfasst, und lösche dann die nicht mehr benötigte Darstellung als Aufzählung.
+
+Zuletzt solltest du auch im Fließtext einen Verweis auf deine Tabelle an geeigneter Stelle hinzufügen.
+
+## Aufgabe I: Phonetische Symbole
+
+1. In Unterabschnitt „3.1 Koartikulationsscores von Konsonanten und Vokalen“ fehlen in Tabelle&nbsp;4 noch die Symbole aus dem Internationalen Phonetischen Alphabet (IPA) für zwei der beschriebenen japanischen Konsonanten, nämlich:
+    - stimmloser bilabialer Frikativ 
+    - alveolo-palataler Frikativ\newline\newline
+Bitte füge die beiden fehlenden IPA-Konsantzeichen unter Benutzung des `tipa`-Pakets ein.\newline
+Um herauszufinden, wie diese beiden Konsonanttypen in der tipa-Notation aufgeschrieben werden können, um anschließend korrekt als IPA-Zeichen gerendert zu werden kannst du in diesem deutschsprachigen TIPA-Handbuch nachschlagen:\newline
+\hphantom\quad – [**ftp.fau.de/ctan/info/translations/tipa/de/tipaman-de.pdf**](http://ftp.fau.de/ctan/info/translations/tipa/de/tipaman-de.pdf)\newline
+
+2. In Unterabschnitt „3.1 Koartikulationsscores von Konsonanten und Vokalen“ fehlen in Tabelle&nbsp;5 noch die Symbole aus dem Internationalen Phonetischen Alphabet (IPA) für zwei der beschriebenen englischen Vokale, nämlich:
+    - fast geschlossener vorn zentralisierter ungerundeter Vokal
+    - halb offener vorderer ungerundeter Vokal\newline\newline 
+Bitte füge die beiden fehlenden IPA-Vokalzeichen unter Benutzung des `tipa`-Pakets ein.\newline
+Um herauszufinden, wie diese beiden Vokaltypen in der tipa-Notation aufgeschrieben werden können, um anschließend korrekt als IPA-Zeichen gerendert zu werden kannst du in diesem deutschsprachigen TIPA-Handbuch nachschlagen:\newline
+\hphantom\quad – [**ftp.fau.de/ctan/info/translations/tipa/de/tipaman-de.pdf**](http://ftp.fau.de/ctan/info/translations/tipa/de/tipaman-de.pdf)\newline
+
 
 ## Abgabe:
 
 Lade bis zum 16.11.23 um 23:59 Uhr folgende Dateien in der Abgabemaske im Kurs-Moodle hoch:
 
-- [[TODO]]
+- `hausarbeit.tex` (in deinem letzten Bearbeitungsstand)
+- `hausarbeit.pdf` (kompiliert nach deinem letzten Bearbeitungsstand)
 
