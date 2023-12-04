@@ -108,7 +108,7 @@ header-includes: |
 
 9. Speichere den erstellten Plot als PDF-Grafik, indem du in RStudio rechts unten im Tab Plots auf „Export“ klickst, dann „Save as PDF…“, dann bei *PDF Size:*&nbsp;die Größe \(\underline{5.20}\times \underline{4.00}\) *inches* auswählst.
 
-10. Schreibe ein kleines LaTeX-Dokument, in dem du in einfachem Text (entweder stichpunktartig oder in kurzen Sätzen) die Ergebnisse der Auswertungen aus den obigen Unteraufgaben 6 und 7 berichtest, d.&#8239;h.&nbsp;Minimum/Maximum/Durchschnitt/Median von `AlterJahre` und `SatzLesezeitMs`.\newline
+10. Schreibe ein kleines LaTeX-Dokument, in dem du in einfachem Text (entweder stichpunktartig oder in kurzen Sätzen) die Ergebnisse der Auswertungen aus den oberen Unteraufgaben 6 und 7 berichtest, d.&#8239;h.&nbsp;Minimum/Maximum/Durchschnitt/Median von `AlterJahre` und `SatzLesezeitMs`.\newline
     Außerdem soll in diesem LaTeX-Dokument der in Unteraufgabe 9 exportierte Box-Plot als Abbildung erscheinen.\newline
     (Hinweis: Mit dem LateX-Befehl `\includegraphics[width=…]{<Dateiname>}`) lassen sich in PDF-Format vorliegende Grafiken genauso gut importieren wie etwa auch PNG-Bilddateien.)
 
