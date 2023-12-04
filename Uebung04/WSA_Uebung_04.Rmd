@@ -34,7 +34,7 @@ header-includes: |
 
 9. Definiere eine Variable `e` und weise ihr den Wahrheitswert `FALSE` zu. Überprüfe anschließend den Datentyp von `e` mithilfe des `class(…)`-Befehls.
 
-10. Konvertiere den Wert von `e` von einem Wahrheits- in einen Textwert, indem du einen Befehl der Form `as.<Ziel-Datentyp>(…)` verwendest. Weise das Ergebnis der Konversion wieder der Variablen `f` zu. Überprüfe anschließend den Datentyp von `e` mithilfe des `class(…)`-Befehls.
+10. Konvertiere den Wert von `e` von einem Wahrheits- in einen Textwert, indem du einen Befehl der Form `as.<Ziel-Datentyp>(…)` verwendest. Weise das Ergebnis der Konversion wieder der Variablen `e` zu. Überprüfe anschließend den Datentyp von `e` mithilfe des `class(…)`-Befehls.
 
 ## Aufgabe B: Homogene Datenstrukturen
 
