@@ -13,7 +13,7 @@ header-includes: |
 
 ## Aufgabe A: Datentypen
 
-1. Erstelle ein neues R-Skript `aufgaben_ABC_<Vorname>_<Nachname>.R`, wobei du die Platzhalter `<Vorname>` und `Nachname` durch deinen Vor- und Nachnamen ersetzen solltest.\newline
+1. Erstelle ein neues R-Skript `aufgaben_ABC_<Vorname>_<Nachname>.R`, wobei du die Platzhalter `<Vorname>` und `<Nachname>` durch deinen Vor- und Nachnamen ersetzen solltest.\newline
    (Alle Teilaufgaben von Aufgaben A, B und C müssen in diesem R-Skript erledigt werden.) 
 
 2. Definiere eine Variable `a` und weise ihr den Zahlenwert der Division von 5 durch 2 zu. 
@@ -87,7 +87,7 @@ header-includes: |
 
 1. Lade dir die Tabellendatei `L1vsL2SprecherLesezeiten.csv` aus dem Kurs-Moodle herunter.
 
-2. Erstelle ein neues R-Skript `aufgabe_D_<Vorname>_<Nachname>.R`, wobei du die Platzhalter `<Vorname>` und `Nachname` durch deinen Vor- und Nachnamen ersetzen solltest.\newline
+2. Erstelle ein neues R-Skript `aufgabe_D_<Vorname>_<Nachname>.R`, wobei du die Platzhalter `<Vorname>` und `<Nachname>` durch deinen Vor- und Nachnamen ersetzen solltest.\newline
    (Alle folgenden ausgeführten R-Befehle für Aufgabe D dann bitte in diesem R-Skript aufschreiben.) 
 
 3. Importiere den Inhalt von `L1vsL2SprecherLesezeiten.csv` in R, indem du den `read.csv(…)`- Befehl benutzt und das Ergebnis in einem neuen Datenrahmen `lesezeiten` speicherst.\newline
