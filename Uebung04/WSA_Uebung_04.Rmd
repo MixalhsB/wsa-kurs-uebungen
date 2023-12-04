@@ -130,7 +130,7 @@ Was genau es damit auf sich hat, das schauen wir uns ab nächster Woche einmal g
 
 ## Abgabe:
 
-Lade bis zum 14.12.23 um 23:59 Uhr folgendes R-Skript in der Abgabemaske im Kurs-Moodle hoch:
+Lade bis zum 14.12.23 um 23:59 Uhr folgende Dateien in der Abgabemaske im Kurs-Moodle hoch:
 
 - `aufgaben_ABC_<Vorname>_<Nachname>.R` (in deinem letzten Bearbeitungsstand)
 - `aufgabe_D_<Vorname>_<Nachname>.R` (in deinem letzten Bearbeitungsstand)
