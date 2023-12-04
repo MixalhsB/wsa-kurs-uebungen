@@ -98,9 +98,9 @@ header-includes: |
 
 5. Lass dir mit dem `table(…)`-Befehl eine Frequenztabelle für die Spalte `Muttersprachler` ausgeben.
 
-6. Berechne das Minimum, das Maximum, den Durchschnitt und den Median der Spalte `AlterJahre`.
+6. Berechne Minimum, Maximum, Median, Durchschnitt und Varianz der Spalte `AlterJahre`.
 
-7. Berechne das Minimum, das Maximum, den Durchschnitt und den Median der Spalte `SatzLesezeitMs`.
+7. Berechne Minimum, Maximum, Median, Durchschnitt und Varianz der Spalte `SatzLesezeitMs`.
 
 8. Erstelle unter Verwendung des Pakets `ggplot2` einen Box-Plot, dessen x-Achse die zwei Kategorien der Spalte `Muttersprachler` unterscheidet (d.&#8239;h.&nbsp;`"ja"` vs.&nbsp;`"nein"`) und dessen y-Achse die Zahlenwerte aus der Spalte `SatzLesezeitMs` repräsentiert. Zusätzlich soll die Kategorieunterscheidung `Muttersprachler` `"ja"`/`"nein"` auch durch unterschiedliche Füllfarben hervorgehoben werden.\newline
    Der Plot soll den Titel „Satz-Lesezeiten von Mutter- vs. Nichtmuttersprachlern“ tragen; außerdem soll die y-Achse die Beschriftung „Satz-Lesezeit in ms“ haben.\newline
@@ -108,7 +108,7 @@ header-includes: |
 
 9. Speichere den erstellten Plot als PDF-Grafik, indem du in RStudio rechts unten im Tab Plots auf „Export“ klickst, dann „Save as PDF…“, dann bei *PDF Size:*&nbsp;die Größe \(\underline{5.20}\times \underline{4.00}\) *inches* auswählst.
 
-10. Schreibe ein kleines LaTeX-Dokument, in dem du in einfachem Text (entweder stichpunktartig oder in kurzen Sätzen) die Ergebnisse der Auswertungen aus den oberen Unteraufgaben 6 und 7 berichtest, d.&#8239;h.&nbsp;Minimum/Maximum/Durchschnitt/Median von `AlterJahre` und `SatzLesezeitMs`.\newline
+10. Schreibe ein kleines LaTeX-Dokument, in dem du in einfachem Text (entweder stichpunktartig oder in kurzen Sätzen) die Ergebnisse der Auswertungen aus den oberen Unteraufgaben 6 und 7 berichtest, d.&#8239;h.&nbsp;Minimum/Maximum/Median/Durchschnitt/Varianz von `AlterJahre` und `SatzLesezeitMs`.\newline
     Außerdem soll in diesem LaTeX-Dokument der in Unteraufgabe 9 exportierte Box-Plot als eingebettete Abbildung erscheinen.\newline
     (Hinweis: Mit dem LateX-Befehl `\includegraphics[width=…]{<Dateiname>}`) lassen sich in PDF-Format vorliegende Grafiken genauso gut einbetten wie etwa auch PNG-Bilddateien.)
 
