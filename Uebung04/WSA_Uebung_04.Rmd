@@ -86,7 +86,7 @@ header-includes: |
 ## Aufgabe D: Datenanalyse und Bericht
 
 1. Lade dir die Tabellendatei `L1vsL2SprecherLesezeiten.csv` aus dem Kurs-Moodle herunter.\newline
-   (Sie enthält die Ergebnisse eines **fiktiven** Lesezeit-Experiments mit 300 Teilnehmer/innen.)
+   (Sie enthält die Ergebnisse eines **fiktiven** Lesezeit-Experiments mit 300 Teilnehmenden.)
 
 2. Erstelle ein neues R-Skript `aufgabe_D_<Vorname>_<Nachname>.R`, wobei du die Platzhalter `<Vorname>` und `<Nachname>` durch deinen Vor- und Nachnamen ersetzen solltest.\newline
    (Alle folgenden ausgeführten R-Befehle für Aufgabe D dann bitte in diesem R-Skript aufschreiben.) 
