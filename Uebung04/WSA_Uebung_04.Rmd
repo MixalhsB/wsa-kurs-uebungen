@@ -110,7 +110,7 @@ header-includes: |
 
 10. Schreibe ein kleines LaTeX-Dokument, in dem du in einfachem Text (entweder stichpunktartig oder in kurzen Sätzen) die Ergebnisse der Auswertungen aus den oberen Unteraufgaben 6 und 7 berichtest, d.&#8239;h.&nbsp;Minimum/Maximum/Durchschnitt/Median von `AlterJahre` und `SatzLesezeitMs`.\newline
     Außerdem soll in diesem LaTeX-Dokument der in Unteraufgabe 9 exportierte Box-Plot als eingebettete Abbildung erscheinen.\newline
-    (Hinweis: Mit dem LateX-Befehl `\includegraphics[width=…]{<Dateiname>}`) lassen sich in PDF-Format vorliegende Grafiken genauso gut importieren wie etwa auch PNG-Bilddateien.)
+    (Hinweis: Mit dem LateX-Befehl `\includegraphics[width=…]{<Dateiname>}`) lassen sich in PDF-Format vorliegende Grafiken genauso gut einbetten wie etwa auch PNG-Bilddateien.)
 
 11. Kompiliere dieses LaTeX-Dokument und speichere es als `bericht1_<Vorname>_<Nachname>.pdf`.
 
