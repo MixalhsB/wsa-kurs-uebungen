@@ -80,7 +80,7 @@ header-includes: |
 
 8. Berechne den Durchschnittswert der Spalte `AnzahlOrtsteile` im Datenrahmen `potsdamer_bezirke` und speichere das Ergebnis in einer neu definierten Variablen `Durchschnitt_AnzahlOrtsteile`.
 
-9. Erstelle einen Datenrahmen `potsdamer_bezirke_mehr_als_3_ortsteile`, der genau so strukturiert ist wie `potsdamer_bezirke`, aber lediglich diejenigen Zeilen enthält, für die in Spalte `AnzahlOrtsteil` ein Zahlenwert vorliegt, der größer als 3 ist.\newline
+9. Erstelle einen Datenrahmen `potsdamer_bezirke_mehr_als_3_ortsteile`, der genau so strukturiert ist wie `potsdamer_bezirke`, aber lediglich diejenigen Zeilen enthält, für die in Spalte `AnzahlOrtsteile` ein Zahlenwert vorliegt, der größer als 3 ist.\newline
    (Hinweis: Du kannst hierfür zunächst das `dplyr`-Paket laden und anschließend einen Ausdruck der Form `<ursprünglicherDatenrahmen> %>% filter(<Wahrheitsbedingung>)` verwenden.)
 
 ## Aufgabe D: Datenanalyse und Bericht
