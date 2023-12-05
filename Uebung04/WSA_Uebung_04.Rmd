@@ -29,7 +29,7 @@ header-includes: |
 
 7. Definiere eine Variable `d` und weise ihr das Produkt von `a`, `b` und `c` zu.
 
-8. Überprüfe mit `print(…)` den Wert von `d` und mit `class(…)` den Datentyp von e.\newline
+8. Überprüfe mit `print(…)` den Wert von `d` und mit `class(…)` den Datentyp von `d`.\newline
    (Hinweis: Es sollten `-3165` und `"numeric"`, d.&#8239;h.&nbsp;Zahlenwert, herauskommen.)
 
 9. Definiere eine Variable `e` und weise ihr den Wahrheitswert `FALSE` zu. Überprüfe anschließend den Datentyp von `e` mithilfe des `class(…)`-Befehls.
@@ -78,9 +78,9 @@ header-includes: |
    - die erste Spalte mit Label `Name` soll den Inhalt des Vektors `potsdam$Bezirke` enthalten;
    - die zweite Spalte mit Label `AnzahlOrtsteile` soll den Inhalt eines Vektors enthalten, der die Zahlenwerte `7`, `3`, `2`, `3`, `3`, `5`, `3` und `6` umfasst.
 
-8. Berechne den Durchschnittswert der Spalte `AnzahlOrtsteile` im Datenrahmen `potsdam` und speichere das Ergebnis in einer neu definierten Variablen namens `Durchschnitt_AnzahlOrtsteile`.
+8. Berechne den Durchschnittswert der Spalte `AnzahlOrtsteile` im Datenrahmen `potsdamer_bezirke` und speichere das Ergebnis in einer neu definierten Variablen `Durchschnitt_AnzahlOrtsteile`.
 
-9. Erstelle einen Datenrahmen `potsdamer_bezirke_mehr_als_3_ortsteile`, der genau so strukturiert ist wie `potsdam`, aber lediglich diejenigen Zeilen enthält, für die in Spalte `AnzahlOrtsteil` ein Zahlenwert vorliegt, der größer als 3 ist.\newline
+9. Erstelle einen Datenrahmen `potsdamer_bezirke_mehr_als_3_ortsteile`, der genau so strukturiert ist wie `potsdamer_bezirke`, aber lediglich diejenigen Zeilen enthält, für die in Spalte `AnzahlOrtsteil` ein Zahlenwert vorliegt, der größer als 3 ist.\newline
    (Hinweis: Du kannst hierfür zunächst das `dplyr`-Paket laden und anschließend einen Ausdruck der Form `<ursprünglicherDatenrahmen> %>% filter(<Wahrheitsbedingung>)` verwenden.)
 
 ## Aufgabe D: Datenanalyse und Bericht
