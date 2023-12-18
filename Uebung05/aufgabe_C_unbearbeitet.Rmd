@@ -1,0 +1,63 @@
+---
+title: "Textformatierung mit Markdown"
+author: "VORNAME NACHNAME"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+Titel Abschnitt 1
+
+Dieser Satz erscheint normal. Aber dieser Satz erscheint fettgedruckt. Und dieser Satz erscheint kursiv. Schließlich erscheint dieser Satz in Monospace-Schriftart.
+
+Titel Unterabschnitt 1 zu Abschnitt 1
+
+Der Unterabschnitt 1 zu Abschnitt 1 besteht aus zwei Paragraphen. Das hier ist noch im ersten Paragraphen. Aber nach dem Ende dieses Satzes folgt ein neuer Paragraph. Ein neuer Paragraph hat begonnen! Bitte klicken Sie auf den gleich folgenden Link mit dem Linktext "UNI POTSDAM"; durch Draufklicken öffnet er sich und führt zur Homepage der Universität Potsdam: UNI POTSDAM Dieser Satz erscheint nach einem Zeilenumbruch, jedoch immer noch im selben Paragraphen wie der gerade erschienene Link.
+
+Titel Unterabschnitt 2 zu Abschnitt 1
+
+Unter diesem Satz erscheint eine Trennlinie.
+
+
+Über diesem Satz erscheint eine Trennlinie.
+
+Titel Abschnitt 2
+
+Titel Unterabschnitt 1 zu Abschnitt 2
+
+Titel Unter-Unterabschnitt 1 zu Unterabschnitt 1 zu Abschnitt 2
+
+Hier sind ein paar Zutaten (als nicht-nummerierte Auflistung):
+
+500g Kartoffeln
+1 Zwiebel, gewürfelt
+2 Esslöffel Öl
+2 Esslöffel Essig
+1 Teelöffel Senf
+Salz und Pfeffer nach Geschmack
+frische Petersilie
+
+Titel Unter-Unterabschnitt 2 zu Unterabschnitt 1 zu Abschnitt 2
+
+Hier folgen Zubereitungsschritte (als nummerierte Auflistung):
+
+Kartoffeln waschen und in Salzwasser ca. 20 Minuten kochen.
+Abgekühlte Kartoffeln schälen und in Scheiben schneiden.
+Zwiebelwürfel in einer Schüssel mit Öl, Essig, Senf, Salz und Pfeffer vermischen.
+Kartoffelscheiben hinzufügen und alles gut vermengen.
+Zum Schluss mit frisch gehackter Petersilie bestreuen.
+
+Titel Unterabschnitt 2 zu Abschnitt 2
+
+Als Letztes folgt eine verschachtelte, nicht-nummerierte Auflistung:
+
+erstes Listen-Item
+erstes Unterlisten-Item (zum ersten Listen-Item)
+zweites Unterlisten-Item (zum ersten Listen-Item)
+zweites Listen-Item
+erstes Unterlisten-Item (zum zweiten Listen-Item)
+zweites Unterlisten-Item (zum zweiten Listen-Item)
+
+Titel Abschnitt 3
+
+Nach diesem Satz folgen keine drei Punkte, sondern stattdessen ein URL-Link zur Homepage der Universität Potsdam, dessen Linktext einfach die URL selbst ist: ...
+
