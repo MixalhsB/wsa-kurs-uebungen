@@ -1,0 +1,21 @@
+---
+title: 'Übungsblatt 6: Weitere Features von R Markdown'
+subtitle: 'Wissenschaftliches Schreiben und Arbeiten, WiSe 2023/’24'
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+\raggedright
+
+## Aufgabe A: TODO
+
+1. TODO
+
+## Abgabe:
+
+Lade bis zum 25.01.24 um 23:59 Uhr folgende elf Dateien in der Abgabemaske im Kurs-Moodle hoch:
+
+- `TODO`
+
