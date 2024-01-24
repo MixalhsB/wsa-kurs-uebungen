@@ -1,0 +1,32 @@
+---
+title: 'Übungsblatt 7: Versionskontrolle mit Git'
+subtitle: 'Wissenschaftliches Schreiben und Arbeiten, WiSe 2023/’24'
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+\raggedright
+
+## Aufgabe A: Git installieren
+
+1. TODO
+
+## Aufgabe B: TODO
+
+1. TODO
+
+## Aufgabe TODO: Kursevaluation (freiwillig, anonym)
+
+1. (Nur falls du es nicht ohnehin schon ausgefüllt hast:)   
+   Das offizielle Evaluations-Formular für diesen Kurs, also „Wissenschaftliches Schreiben und Arbeiten“, ist jetzt online: [\textcolor{blue}{\textbf{https://pep.uni-potsdam.de/ce/c4a2fad6/de.html}}](https://pep.uni-potsdam.de/ce/c4a2fad6/de.html)  
+   Hier hast du die Gelegenheit, komplett anonymisiert zu bewerten, wie dir die Lehre in diesem Kurs gefallen hat bzw.&nbsp;welche Aspekte deiner Meinung nach verbessert werden könnten.   
+   Die Teilnahme an der Evaluation ist freiwillig. Bitte nimm dir aber, wenn du es dir einrichten kannst, die paar Minuten Zeit, um das Formular auszufüllen und so dein ehrliches Feedback abzugeben. 
+
+## Abgabe:
+
+Lade bis zum 08.02.24 um 23:59 Uhr folgende Dateien in der Abgabemaske im Kurs-Moodle hoch:
+
+- TODO
+
