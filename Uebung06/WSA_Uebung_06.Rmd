@@ -45,7 +45,7 @@ output:
    
    f. Erstelle darunter mithilfe der Markdown-Syntax folgende Tabelle:
 
-   | Modultitel                                      | CP     | Kürzel     | Prüfungs-Anmeldefrist     |
+   | Modultitel                                      | CP     | Kürzel     | Prüfungsanmeldefrist      |
    |-------------------------------------------------|--------|------------|---------------------------|
    | Selbstreflexion und wissenschaftliches Arbeiten | 6      | LIN-BS-040 | 08.02.2024                |
 
