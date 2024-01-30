@@ -205,27 +205,13 @@ plot(airquality$Wind, airquality$Temp)
     `> git push`  
     aus, um die bei dir lokal committeten Änderungen auch wieder in die Remote-Kopie auf GitHub hinein-zu-synchronisieren.
 
+## Aufgabe H: Kompression des Repositorys zu einem ZIP-Archiv
 
-## Aufgabe H: Export des Remote-Repositorys als ZIP-Archiv
+1. Komprimiere jetzt den ganzen Ordner des Repositorys, also `wsa-u7-abgabe` zu einem ZIP-Archiv.  
+   \vspace{0.3em}
+   *Hinweis: Hier findest du Videotutorials zum Erstellen eines ZIP-Archivs aus einem Ordner auf Windows *(\textcolor{blue}{\textbf{\url{https://youtu.be/-f1pEpRu31E}}})*, Mac&#8239;OS *(\textcolor{blue}{\textbf{\url{https://youtu.be/SUlI3-3mkU0}}}) *oder Linux* (\textcolor{blue}{\textbf{\url{https://youtu.be/7UocaXEScao}}}).
 
-1. Navigiere in deinem Browser auf die Webseite mit der URL  
-   \vspace{0.3em}
-   `https://github.com/<GitHub-Username>/wsa-u7-abgabe`  
-   \vspace{0.3em}
-   wobei natürlich `<GitHub-Username>` zuerst wieder durch deinen persönlichen GitHub-Benutzernamen ersetzt werden muss.
-
-2. Du siehst jetzt eine Übersicht zu deinem Repository.  
-   \vspace{0.3em}
-   Klicke auf den Button mit der Aufschrift „<> Code“, dann auf „Download ZIP“.  
-   Dadurch wird dein Repository als ZIP-Archiv exportiert und heruntergeladen.
-
-3. Finde das heruntergeladene ZIP-Archiv auf deinem PC.  
-   \vspace{0.3em}
-   Es wird jetzt standardmäßig den Dateinamen `wsa-u7-abgabe-main.zip` haben.
-
-4. Benenne das ZIP-Archiv nun manuell um in `wsa-u7-abgabe-main_<Vorname>_<Nachname>.zip`.  
-   \vspace{0.3em}
-   Dabei soll natürlich `<Vorname>` durch deinen Vornamen und `<Nachname>` durch deinen Nachnamen ersetzt werden.
+2. Benenne das ZIP-Archiv um in `wsa-u7-abgabe_<Vorname>_<Nachname>.zip`.
 
 ## Aufgabe I: Kursevaluation (freiwillig, anonym)
 
