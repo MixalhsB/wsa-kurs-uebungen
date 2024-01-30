@@ -224,5 +224,5 @@ plot(airquality$Wind, airquality$Temp)
 
 Lade \underline{\textbf{bis zum 15.02.24}} um 23:59 Uhr folgende einzige Datei in der Abgabemaske im Kurs-Moodle hoch:
 
-- `wsa-u7-abgabe-main_<Vorname>_<Nachname>.zip`
+- `wsa-u7-abgabe_<Vorname>_<Nachname>.zip`
 
