@@ -207,7 +207,7 @@ plot(airquality$Wind, airquality$Temp)
 
 ## Aufgabe H: Kompression des Repositorys zu einem ZIP-Archiv
 
-1. Komprimiere jetzt den ganzen Ordner des Repositorys, also `wsa-u7-abgabe` zu einem ZIP-Archiv.  
+1. Komprimiere jetzt den ganzen Ordner des Repositorys, also `wsa-u7-abgabe`, zu einem ZIP-Archiv.  
    \vspace{0.3em}
    *Hinweis: Hier findest du Videotutorials zum Erstellen eines ZIP-Archivs aus einem Ordner auf Windows *(\textcolor{blue}{\textbf{\url{https://youtu.be/-f1pEpRu31E}}})*, Mac&#8239;OS *(\textcolor{blue}{\textbf{\url{https://youtu.be/SUlI3-3mkU0}}}) *oder Linux* (\textcolor{blue}{\textbf{\url{https://youtu.be/7UocaXEScao}}}).
 
